@@ -1,0 +1,96 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.center-div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.heading{
+	width: 100%;
+	line-height: 80px;
+	font-size: 1.4rem;
+	background:-webkit-linear-gradient(left,#0072ff,#8811c5);
+	font-family: 'Staatliches', cursive;
+}
+form{
+	width: 400px;
+
+}
+
+.btn1 a  {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  text-decoration: none;
+  margin: 85px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+  
+}
+table th{
+	line-height: 20px;
+	font-size: 1;
+	background:-webkit-linear-gradient(left,#0072ff,#87CEFA);
+	font-family: 'Roboto', sans-serif;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1{
+	margin-left :573px;
+	margin-right: 400px;
+    text-align: center;
+    margin-bottom: 5px;
+    /*text-align :center;*/
+    }
+.container1 {
+  display: vertical-flex;
+  line-height: 50px;
+  margin: 250px;
+  /*width: 100%;*/
+  padding: 26px;
+  background-color: white;
+  margin-top:25px;
+  margin-left: 400px;
+}
+
+/* Full-width input fields */
+.signuptrial {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.signuptrial input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  width: 100px;
+}
